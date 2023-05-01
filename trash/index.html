@@ -1,0 +1,59 @@
+---
+layout: personalised
+---
+
+I am a Postdoctoral Training Fellow in bioinformatics at The Institute of Cancer Research.
+I write code to analyse tens of thousands of whole genome sequences of tumours to find out what causes cancer.
+I love playing with new data and building statistical models to squeeze all of the information out of it.
+
+You can find my publications on [Google Scholar](https://scholar.google.com/citations?user=4z9ZaTwAAAAJ&hl=en&oi=ao), [NASA ADS](https://ui.adsabs.harvard.edu/search/q=%20%20author%3A%22Everall%2C%20A%22&sort=date%20desc%2C%20bibcode%20desc&p_=0) or [researchgate](https://www.researchgate.net/profile/Andrew-Everall/research).
+
+
+
+
+
+<!-- <div class="posts">
+  {% for post in paginator.posts %}
+    <article class="post">
+      <a href="{{ site.baseurl }}{{ post.url }}">
+        <h1>{{ post.title }}</h1>
+
+        <div>
+          <p class="post_date">{{ post.date | date: "%B %e, %Y" }}</p>
+        </div>
+      </a>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+
+  pagination
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    {% else %}
+      <span>&laquo; Prev</span>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <span class="webjeda">{{ page }}</span>
+      {% elsif page == 1 %}
+        <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    {% else %}
+      <span>Next &raquo;</span>
+    {% endif %}
+  </div>
+  {% endif %}
+</div> -->

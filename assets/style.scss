@@ -60,7 +60,7 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 @media (min-width: 769px){
@@ -127,6 +127,23 @@ table tr th :last-child,
 table tr td :last-child {
 	margin-bottom: 0;
 }
+
+// img {
+//
+// }
+//
+// .imagecontainer {
+//  // display: grid;
+//  align-items: center;
+//  // grid-template-columns: 1fr 1fr 1fr;
+//  column-gap: 5px;
+// }
+// .imagetext {
+//     font-size: 16px;
+//     padding-left: 20px;
+//     padding-top: 0%;
+//     float: left;
+// }
 
 /*.detailed .entry p:first-of-type:first-letter {
     float: left;
@@ -354,6 +371,40 @@ nav {
       color: $blue;
     }
   }
+}
+
+/* Centered section inside the top navigation */
+// .newnav {
+//   position: absolute;
+//
+// }
+.navbar {
+  font-family: $helveticaNeue;
+  font-size: 18px;
+  display: inline-block;
+  text-align: center;
+  // background-color: #CCCCCC;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  position: relative;
+
+  // padding: 20px 0;
+  border-bottom: 1px solid $lightGray;
+}
+/* Style the links inside the navigation bar */
+.navbar a {
+  // float: center;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+img[alt$="<"] {
+  float: left;
 }
 
 //
@@ -611,7 +662,7 @@ Modules - reusable parts of our design
 
 #gh-latest{
     font-size: 16px;
-    text-align: center;		
+    text-align: center;
 }
 
 .text-link {
@@ -714,7 +765,7 @@ Modules - reusable parts of our design
   display: inline-block;
 }
 
-.pagination a {    
+.pagination a {
   &:hover {
       background-color: #f1f1f1;
       color: #333;
