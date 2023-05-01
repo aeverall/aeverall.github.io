@@ -1,6 +1,6 @@
 <div align="center">
   <br>
-  <img src="/images/initials.png" alt="My name" width="200"/>
+  <img src="/images/initials_circle.png" alt="My name" width="200"/>
   <br>
 </div>
 
