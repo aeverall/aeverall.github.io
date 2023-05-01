@@ -10,7 +10,7 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
 
     <meta name="theme-color" content="#000000">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/pic_of_me1.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/images/initials.png">
     {% include analytics_head.html %}
   </head>
 
@@ -20,39 +20,52 @@
       <div class="wrapper-masthead">
         <div class="container">
           <header class="masthead clearfix">
-            <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a>
+            <!-- <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.baseurl }}{{ site.avatar }}" alt="{{ site.title }}" /></a> -->
 
             <div class="site-info">
               <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
               <p class="site-description">{{ site.description }}</p>
+              <!-- <p>{% include svg-icons.html %}</p> -->
             </div>
 
-            <nav>
-              <a href="{{ site.baseurl }}/">Home</a>
-              <a href="{{ site.baseurl }}/cv">CV</a>
-              <a href="{{ site.baseurl }}/astro">Astrophysics</a>
-              <a href="{{ site.baseurl }}/biostats">Biostatistics</a>
-              <!-- <a href="{{ site.baseurl }}/about">About</a> -->
-              <!-- <a href="{{ site.baseurl }}/archive">Archive</a> -->
-            </nav>
+            <nav>{% include svg-icons.html %}</nav>
+
           </header>
+        </div>
+        <div class="container">
+          <div class="navbar">
+            <a href="{{ site.baseurl }}/">Home</a>
+            <a href="{{ site.baseurl }}/cv">CV</a>
+            <a href="{{ site.baseurl }}/astro">Astrophysics</a>
+            <a href="{{ site.baseurl }}/biostats">Biostatistics</a>
+            <!-- <a href="{{ site.baseurl }}/about">About</a> -->
+            <!-- <a href="{{ site.baseurl }}/archive">Archive</a> -->
+          </div>
         </div>
       </div>
 
+      <style>
+        h2 {
+          padding-bottom: 25px
+        }
+      </style>
+
       <div class="wrapper-main">
         <div id="main" role="main" class="container">
+          <h2>{{ page.title }}</h2>
+
           {{ content }}
         </div>
       </div>
 
-      <div class="wrapper-footer">
+      <!-- <div class="wrapper-footer">
         <div class="container">
           <footer class="footer">
             {% include svg-icons.html %}
           </footer>
         </div>
       </div>
-    </div>
+    </div> -->
 
     {% include analytics.html %}
   </body>
