@@ -37,5 +37,5 @@ gem "jekyll-sitemap", "~> 1.4"
 gem "jekyll-paginate", "~> 1.1"
 
 group :jekyll_plugins do
-  gem "jekyll-pdf-embed"
+  # gem "jekyll-pdf-embed"
 end
