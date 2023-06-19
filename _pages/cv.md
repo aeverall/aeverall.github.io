@@ -8,11 +8,14 @@ permalink: /cv/
 
 
 <center>
- <object data="{{ site.url }}{{ site.baseurl }}/pdfs/cv.pdf" width="700" height="1875" type="application/pdf"></object>
+ <object data="https://andreweverall.com/pdfs/cv.pdf" width="700" height="1875" type="application/pdf"></object>
+ <!-- <object data="{{ site.url }}{{ site.baseurl }}/pdfs/cv.pdf" width="700" height="1875" type="application/pdf"></object> -->
 </center>
 
 
 
+
+<!-- 
 ### EDUCATION
 <b> Institute of Astronomy, University of Cambridge, PhD in Astrophysics/Astronomy.</b> <i>September 2018 - September 2021 </i>
 - Applied Bayesian statistical methods to correct selection bias
@@ -73,10 +76,6 @@ Open source: [github.com/aeverall](https://github.com/aeverall), [github.com/gai
 - Andrew Everall and Payel Das. seestar: Selection functions for spectroscopic surveys of the Milky Way. MNRAS, 493(2):2042–2058, April 2020
 - Andrew Everall, N. W. Evans, et al. The tilt of the local velocity ellipsoid as seen by Gaia. MNRAS, 489(1):910–918, Oct 2019
 
-Publications are available on NASA ADS:
-<!-- <center>
-  <a href='https://ui.adsabs.harvard.edu/search/q=author:"Everall,A"'>https://ui.adsabs.harvard.edu/search/q=author:"Everall,A"</a>
-</center> -->
 <center>
   <a href='https://scholar.google.com/citations?hl=en&user=4z9ZaTwAAAAJ&view_op=list_works'>https://scholar.google.com/citations?hl=en&user=4z9ZaTwAAAAJ&view_op=list_works</a>
 </center>
@@ -99,7 +98,7 @@ Publications are available on NASA ADS:
 {% comment %}
 <center>
  <object data="{{ site.url }}{{ site.baseurl }}/pdfs/cv.pdf" width="700" height="1875" type="application/pdf"></object>
-</center> -->
+</center> 
 
 <center>
 <div class="image">
@@ -117,4 +116,4 @@ You can view my CV as a PDF <a id="raw-url" href="https://drive.google.com/file/
 </center>
 
 <object data="pdfs/cv.pdf" width="1000" height="1000" type='application/pdf'></object>
-{% endcomment %}
+{% endcomment %} -->
