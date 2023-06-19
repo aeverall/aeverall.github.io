@@ -7,6 +7,12 @@ permalink: /cv/
 <!-- <iframe src="https://docs.google.com/gview?url=http://example.com/mypdf.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe> -->
 
 
+<center>
+ <object data="{{ site.url }}{{ site.baseurl }}/pdfs/cv.pdf" width="700" height="1875" type="application/pdf"></object>
+</center>
+
+
+
 ### EDUCATION
 <b> Institute of Astronomy, University of Cambridge, PhD in Astrophysics/Astronomy.</b> <i>September 2018 - September 2021 </i>
 - Applied Bayesian statistical methods to correct selection bias
