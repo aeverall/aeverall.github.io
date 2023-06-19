@@ -4,7 +4,37 @@ title:
 permalink: /cv/
 ---
 
-I am an experienced astrophysics and bioinformatics researcher and programmer with many applied statistics papers published in high impact journals. My goal is to develop and implement novel statistical models and ML methods to complex datasets to provide impactful solutions with a particular interest in Bayesian statistics.
+<!-- <iframe src="https://docs.google.com/gview?url=http://example.com/mypdf.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe> -->
+
+
+### EDUCATION
+<b> Institute of Astronomy, University of Cambridge, PhD in Astrophysics/Astronomy.</b> <i>September 2018 - September 2021 </i>
+- Applied Bayesian statistical methods to correct selection bias
+in a survey of 2bn stars and inferred the structure of the
+Galaxy.
+- co-PI of the Completeness of the Gaia-verse project:
+gaiaverse.space,  gaiaverse
+- Awarded the Murdin Prize for best published journal paper
+by a PhD student. <br />
+
+<b> University of Oxford, Master of Physics. </b> <i> September 2013 - July 2017 </i>
+- Specialised in Astrophysics and Theoretical Physics.
+- Thesis: The origin of streams in our Solar Neighbourhood.
+
+### WORK & RESEARCH EXPERIENCE
+<b> Institute of Cancer Research, Research Fellow.</b> <i>October 2021 - Present</i>
+- Decomposed mutation rates in 10k cancer tumours to find underlying processes using non-negative matrix factorisation.
+- Implemented novel conditional resampling techniques to control type I error rates in large multiple-testing studies.
+
+<b> Rudolf Peierls Centre for Theoretical Physics, Oxford, Assistant Researcher.</b> <i>October 2017 - April 2018</i>
+- Received University funding for full time research in Galactic Dynamics until December 2017. Invited to continue in 2018, funded by an ERC grant.
+- Developed seestar, a Python repository which automatically analyses selection bias of spectroscopic stellar surveys.
+
+<b>Assistant Trader Intern, Susquehanna International Group, Dublin, Ireland.</b> <i>June - August 2017</i>
+- Created a Python desktop application for automated classification of exotic options from text information using basic NLP.
+
+<b>Summer Analyst, Deutsche Bank, London.</b> <i>June -August 2016</i>
+- Produced detailed PowerPoints for client presentations.
 
 ### COMPUTING SKILLS
 Programming languages:
@@ -24,36 +54,6 @@ Data management: PostgreSQL, ADQL, Microsoft Access\\
 Software Development: JavaScript, CSS, HTML (Google Developer Challenge Scholarship)\\
 Open source: [github.com/aeverall](https://github.com/aeverall), [github.com/gaiaverse](https://github.com/gaiaverse), [kaggle](https://www.kaggle.com/aeverall)
 
-
-### EDUCATION
-Institute of Astronomy, University of Cambridge, PhD in Astrophysics/Astronomy. <i>September 2018 - September 2021 </i>
-- Applied Bayesian statistical methods to correct selection bias
-in a survey of 2bn stars and inferred the structure of the
-Galaxy.
-- co-PI of the Completeness of the Gaia-verse project:
-gaiaverse.space,  gaiaverse
-- Awarded the Murdin Prize for best published journal paper
-by a PhD student. <br />
-
-University of Oxford, Master of Physics. <i> September 2013 - July 2017 </i>
-- Specialised in Astrophysics and Theoretical Physics.
-- Thesis: The origin of streams in our Solar Neighbourhood.
-
-### WORK & RESEARCH EXPERIENCE
-Postdoctoral Training Fellow, Institute of Cancer Research. <i>October 2021 - Present</i>
-- Decomposed mutation rates in 10k cancer tumours to find underlying processes using non-negative matrix factorisation.
-- Implemented novel conditional resampling techniques to control type I error rates in large multiple-testing studies.
-
-Assistant Researcher, Rudolf Peierls Centre for Theoretical Physics, Oxford. <i>October 2017 - April 2018</i>
-- Received University funding for full time research in Galactic Dynamics until December 2017. Invited to continue in 2018, funded by an ERC grant.
-- Developed seestar, a Python repository which automatically analyses selection bias of spectroscopic stellar surveys.
-
-Assistant Trader Intern, Susquehanna International Group, Dublin, Ireland. <i>June - August 2017</i>
-- Created a Python desktop application for automated classification of exotic options from text information using basic NLP.
-
-Summer Analyst, Deutsche Bank, London. <i>June -August 2016</i>
-- Produced detailed PowerPoints for client presentations.
-
 ### TEACHING
 - Supervisor, Part II: Cambridge Undergraduate Astrophysics, Stellar Dynamics and Structure of Galaxies. <i>2019-2021</i>
 - Supervisor, Part Ia: Cambridge Undergraduate Natural Sciences, Gravitational and Electromagnetic Fields. <i>April -June 2019</i>
@@ -68,8 +68,11 @@ Summer Analyst, Deutsche Bank, London. <i>June -August 2016</i>
 - Andrew Everall, N. W. Evans, et al. The tilt of the local velocity ellipsoid as seen by Gaia. MNRAS, 489(1):910–918, Oct 2019
 
 Publications are available on NASA ADS:
-<center>
+<!-- <center>
   <a href='https://ui.adsabs.harvard.edu/search/q=author:"Everall,A"'>https://ui.adsabs.harvard.edu/search/q=author:"Everall,A"</a>
+</center> -->
+<center>
+  <a href='https://scholar.google.com/citations?hl=en&user=4z9ZaTwAAAAJ&view_op=list_works'>https://scholar.google.com/citations?hl=en&user=4z9ZaTwAAAAJ&view_op=list_works</a>
 </center>
 
 ### INVITED TALKS
