@@ -90,6 +90,8 @@ plugins:
 
 include: ['_pages']
 
+usemathjax: true
+
 paginate: 6
 paginate_path: /page:num/
 

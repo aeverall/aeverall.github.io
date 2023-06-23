@@ -8,7 +8,7 @@ permalink: /cv/
 
 
 <center>
- <object data="https://andreweverall.com/pdfs/cv.pdf" width="700" height="1875" type="application/pdf"></object>
+ <object data="https://andreweverall.com/pdfs/cv.pdf" width="100%" height="1010" type="application/pdf"></object>
  <!-- <object data="{{ site.url }}{{ site.baseurl }}/pdfs/cv.pdf" width="700" height="1875" type="application/pdf"></object> -->
 </center>
 
